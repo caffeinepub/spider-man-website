@@ -1,0 +1,96 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-section-featuring-spider-man-with-parallax-scrolling-depth-effects-that-create-visual-layers-as-the-user-scrolls",
+      "featureTitle": "Create a hero section featuring Spider-Man with parallax scrolling depth effects that create visual layers as the user scrolls",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/hooks/useParallax.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-content-sections-about-spider-man-including-his-origin-story-powers-and-abilities-key-villains-and-notable-comic-movie-appearances",
+      "featureTitle": "Implement content sections about Spider-Man including his origin story, powers and abilities, key villains, and notable comic/movie appearances",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AppearancesSection.tsx",
+        "frontend/src/components/OriginSection.tsx",
+        "frontend/src/components/PowersSection.tsx",
+        "frontend/src/components/VillainsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-depth-effects-throughout-the-entire-website-using-css-transforms-shadows-and-layering-to-create-a-3d-appearance-across-all-sections",
+      "featureTitle": "Apply depth effects throughout the entire website using CSS transforms, shadows, and layering to create a 3D appearance across all sections",
+      "files": [
+        "frontend/src/components/AppearancesSection.tsx",
+        "frontend/src/components/DepthCard.tsx",
+        "frontend/src/components/OriginSection.tsx",
+        "frontend/src/components/PowersSection.tsx",
+        "frontend/src/components/VillainsSection.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-a-cohesive-visual-theme-inspired-by-spider-man-s-iconic-red-and-blue-color-scheme-with-comic-book-aesthetics-incorporating-bold-typography-dynamic-angles-and-web-pattern-details-throughout-the-layout",
+      "featureTitle": "Design a cohesive visual theme inspired by Spider-Man's iconic red and blue color scheme with comic book aesthetics, incorporating bold typography, dynamic angles, and web-pattern details throughout the layout",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AppearancesSection.tsx",
+        "frontend/src/components/Header.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/OriginSection.tsx",
+        "frontend/src/components/PowersSection.tsx",
+        "frontend/src/components/VillainsSection.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

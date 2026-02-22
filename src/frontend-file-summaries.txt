@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete Spider-Man website structure with header, hero section, four content sections (origin, powers, villains, appearances), and footer.",
+  "frontend/src/components/Header.tsx": "Fixed header component with Spider-Man branding, featuring the site title and a custom web-pattern icon using Lucide's Sparkles icon with web pattern overlay instead of the non-existent SiSpiderman icon.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with parallax scrolling effects using three layers (city background, web pattern, and hero content) that move at different speeds.",
+  "frontend/src/components/OriginSection.tsx": "Content section detailing Spider-Man's origin story including Peter Parker's transformation, Uncle Ben's death, and the famous responsibility quote, using depth cards for visual hierarchy.",
+  "frontend/src/components/PowersSection.tsx": "Grid layout section showcasing Spider-Man's six main powers and abilities with icons, using depth cards with hover effects.",
+  "frontend/src/components/VillainsSection.tsx": "Rogues gallery section displaying six major Spider-Man villains with threat levels, using depth cards with color-coded borders.",
+  "frontend/src/components/AppearancesSection.tsx": "Section highlighting notable Spider-Man appearances across comics, films, and TV shows with categorized icons and depth effects.",
+  "frontend/src/components/DepthCard.tsx": "Reusable card component with layered shadows, transforms, and hover effects to create consistent 3D depth appearance across all sections.",
+  "frontend/src/components/Footer.tsx": "Footer component with caffeine.ai attribution, dynamic year, and copyright notice, styled with Spider-Man theme and web pattern background.",
+  "frontend/src/hooks/useParallax.ts": "Custom React hook that calculates parallax scroll offsets using requestAnimationFrame for smooth performance, accepting speed multipliers for different layers.",
+  "frontend/src/hooks/useQueries.ts": "Empty file as backend has no methods; all content is static and rendered client-side.",
+  "frontend/src/index.css": "Global styles with Spider-Man color system (red/blue OKLCH tokens), comic book typography, layered depth shadows, glow effects, web pattern utilities including new web-icon-pattern for the header, and custom animations.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Spider-Man color palette (spidey-red, spidey-blue, spidey-dark) and custom theme tokens for consistent styling."
+}

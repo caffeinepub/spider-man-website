@@ -1,0 +1,95 @@
+{
+  "kind": "build_request",
+  "title": "Create Spider-Man themed website with depth effects",
+  "projectName": "Spider-Man Hub",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section featuring Spider-Man with parallax scrolling depth effects that create visual layers as the user scrolls",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a website all about Spider-Man with dept effects all all"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays Spider-Man imagery with multiple parallax layers",
+        "Scrolling creates visible depth effect with foreground and background moving at different speeds",
+        "Smooth animations without performance issues"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement content sections about Spider-Man including his origin story, powers and abilities, key villains, and notable comic/movie appearances",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a website all about Spider-Man"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 4 distinct content sections with Spider-Man information",
+        "Each section is visually distinct and easy to navigate",
+        "Content is organized and readable"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Apply depth effects throughout the entire website using CSS transforms, shadows, and layering to create a 3D appearance across all sections",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "with dept effects all all"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Multiple sections feature depth effects using shadows and transforms",
+        "Visual hierarchy creates sense of depth across the page",
+        "Effects are consistent with the overall Spider-Man theme"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Design a cohesive visual theme inspired by Spider-Man's iconic red and blue color scheme with comic book aesthetics, incorporating bold typography, dynamic angles, and web-pattern details throughout the layout",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme uses Spider-Man's signature red and blue palette",
+        "Typography and layout evoke comic book style",
+        "Web patterns or Spider-Man motifs appear as design elements",
+        "Overall aesthetic is consistent across all sections"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Interactive games or mini-games",
+    "User authentication or accounts",
+    "Database storage of Spider-Man content",
+    "Social media integration",
+    "E-commerce functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Dynamic Spider-Man hero illustration in action pose with web-slinging motion against city skyline (spiderman-hero.dim_1920x1080.png)",
+      "Spider-Man mask icon in comic book style with bold outlines (spiderman-icon.dim_256x256.png)",
+      "Spider web pattern texture for background use with transparent areas (web-pattern.dim_800x800.png)",
+      "Comic-style cityscape background with buildings in perspective for depth effect (city-background.dim_1600x900.png)"
+    ],
+    "edits": []
+  }
+}
